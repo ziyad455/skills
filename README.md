@@ -15,21 +15,21 @@ If yes, it proceeds. If not, it retrieves more, flags uncertainty, or escalates.
 ## Install
 
 ```bash
-gh skill install OWNER/REPOSITORY self-doubt-engine
+gh skill install ziyad455/skills self-doubt-engine
 ```
 
 Target a specific agent:
 
 ```bash
-gh skill install ziyad455/self-doubt-engine self-doubt-engine --agent claude-code
-gh skill install ziyad455/self-doubt-engine self-doubt-engine --agent codex
-gh skill install ziyad455/self-doubt-engine self-doubt-engine --agent cursor
+gh skill install ziyad455/skills self-doubt-engine --agent claude-code
+gh skill install ziyad455/skills self-doubt-engine --agent codex
+gh skill install ziyad455/skills self-doubt-engine --agent cursor
 ```
 
 Pin to a version:
 
 ```bash
-gh skill install ziyad455/self-doubt-engine self-doubt-engine@v1.0.0
+gh skill install ziyad455/skills self-doubt-engine@v1.0.0
 ```
 
 ## What's Inside
@@ -73,7 +73,7 @@ self-doubt-engine/
 another-skill/
 ```
 
-Every folder needs a `SKILL.md` with a `name` field that matches the folder name.
+
 
 ## License
 
