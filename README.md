@@ -14,22 +14,17 @@ If yes, it proceeds. If not, it retrieves more, flags uncertainty, or escalates.
 
 ## Install
 
+Clone the repo and copy the skill folder into your project:
+
 ```bash
-gh skill install ziyad455/skills self-doubt-engine
+git clone https://github.com/ziyad455/skills.git
+cp -r skills/self-doubt-engine ./self-doubt-engine
 ```
 
-Target a specific agent:
+Or download just the skill folder using `degit` (no git history):
 
 ```bash
-gh skill install ziyad455/skills self-doubt-engine --agent claude-code
-gh skill install ziyad455/skills self-doubt-engine --agent codex
-gh skill install ziyad455/skills self-doubt-engine --agent cursor
-```
-
-Pin to a version:
-
-```bash
-gh skill install ziyad455/skills self-doubt-engine@v1.0.0
+npx degit ziyad455/skills/self-doubt-engine self-doubt-engine
 ```
 
 ## What's Inside
@@ -59,10 +54,6 @@ self-doubt-engine/
 6. **Respond** — with clear labels: `observed`, `derived`, or `assumed`
 
 ## Validate the Package
-
-```bash
-python3 self-doubt-engine/scripts/validate_skill.py
-```
 
 ## Adding More Skills
 
